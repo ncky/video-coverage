@@ -63,7 +63,7 @@ python .\vcov.py --search_for_frame --target_datetime "2024-06-19 19:23:50" --sa
 ```
 
 ## Command-Line Arguments
-    --folder_path: Path to the folder containing video files (default: j:/obs).
+    --folder_path: Path to the folder containing video files (required).
     --show_times: Show execution times for operations.
     --display_metadata: Display metadata of all videos.
     --search_for_frame: Search for and process a specific frame.
