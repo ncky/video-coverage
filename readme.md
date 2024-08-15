@@ -35,29 +35,25 @@ python .\vcov.py -h
 
 ### Example Commands
 1. Find and save a specific frame
-
-To search for a frame at a specific datetime and save it to a PNG file:
+> To search for a frame at a specific datetime and save it to a PNG file:
 ```bash
 python .\vcov.py --search_for_frame --target_datetime "2024-06-19 19:23:50" --save_frame
 ```
 
 2. Display metadata of all videos
-
-To display metadata of all video files in the folder:
+> To display metadata of all video files in the folder:
 ```bash
 python .\vcov.py --display_metadata
 ```
 
 3. Search for a frame and display it
-
-To search for a frame and display it in a window:
+> To search for a frame and display it in a window:
 ```bash
 python .\vcov.py --search_for_frame --target_datetime "2024-06-19 19:23:50" --display_frame
 ```
 
-Adjust creation time and save a frame
-
-To adjust the creation time by subtracting the video duration if using the last modified time and save the extracted frame:
+4. Adjust creation time and save a frame
+> To adjust the creation time by subtracting the video duration if using the last modified time and save the extracted frame:
 ```bash
 python .\vcov.py --search_for_frame --target_datetime "2024-06-19 19:23:50" --save_frame --adjust_creation_time
 ```
